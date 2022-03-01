@@ -16,6 +16,13 @@
 		<input type="password" name="password" placeholder="Password"><br>
 		<label>Re-Password</label>
 		<input type="password" name="password" placeholder="Re-Password"><br><br>
+		<h2> SELECT YOUR POST </h2>
+		<input type="radio" name="Faculty"
+		<?php if (isset($post) && $post=="Faculty") echo "checked";?>
+		value="Faculty">Faculty<br>
+		<input type="radio" name="Faculty"
+		<?php if (isset($post) && $post=="Student") echo "checked";?>
+		value="Faculty">Student<br><br><br>
 		<button type="submit">Sign up</button>
 	</form>
 </body>
