@@ -3,6 +3,12 @@
 <head>
 	<title> LOGIN </title>
 	<link rel="stylesheet" type="text/css" href="Style.css">
+	<style type="text/css">
+	body {
+		align:center;
+		text-align:center;
+	}
+	</style>
 </head>
 <body>
 	<form>
@@ -11,9 +17,9 @@
 			<p class="error"> <?php echo $_GET['error']; ?></p>
 		<?php } ?>
 		<label>ERP</label>
-		<input type="text" name="uname" placeholder="ERP"><br>
+		<input type="text" name="uname" placeholder="ERP"><br><br>
 		<label>Password</label>
-		<input type="password" name="password" placeholder="Password"><br>
+		<input type="password" name="password" placeholder="Password"><br><br>
 		<label>Re-Password</label>
 		<input type="password" name="password" placeholder="Re-Password"><br><br>
 		<h2> SELECT YOUR POST </h2>
