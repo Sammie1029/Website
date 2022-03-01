@@ -21,8 +21,7 @@
 		<input type="radio" name="Faculty"
 		<?php if (isset($post) && $post=="Student") echo "checked";?>
 		value="Faculty">Student<br><br><br>
-		<button type="submit">Login</button><br><br><br><br>
-		<label><h4>SIGN UP</h4></label>
+		<button type="submit">Login</button>
 	</form>
 </body>
 </html>
